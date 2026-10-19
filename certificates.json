@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cert-cisco-netacad",
+    "title": "Getting Started with Cisco Packet Tracer",
+    "issuer": "Cisco Networking Academy",
+    "year": "",
+    "credentialId": "",
+    "image": "/assets/images/certificates/Img_CISCO.png",
+    "profileUrl": "https://www.netacad.com/profile?tab=badges",
+    "description": "Cisco Networking Academy learning profile showing the completed course and certificate."
+  },
+  {
+    "id": "cert-bsit-2026",
+    "title": "BSIT Seminar-Workshop 2026",
+    "issuer": "BSIT Seminar-Workshop",
+    "year": "2026",
+    "credentialId": "",
+    "image": "/assets/images/certificates/Img_WORKSHOP.png",
+    "file": "/assets/certificates/bsit-seminar-workshop-2026.pdf",
+    "description": "Certificate of participation in the 2026 BSIT seminar-workshop."
+  },
+  {
+    "id": "cert-devcon",
+    "title": "DEVCON Certificate",
+    "issuer": "DEVCON Philippines",
+    "year": "2026",
+    "credentialId": "",
+    "image": "/assets/images/certificates/Img_DEVCON.png",
+    "file": "/assets/certificates/devcon-certificate-jonelle-gebolingo.pdf",
+    "description": "Certificate issued to Jonelle Gebolingo by DEVCON Philippines."
+  }
+]

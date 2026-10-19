@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Python",
+    "icon": "devicon-python-plain colored",
+    "color": "#3776AB",
+    "glow": "rgba(55, 118, 171, 0.45)",
+    "badge": "Language & AI",
+    "category": "technical"
+  },
+  {
+    "name": "JavaScript",
+    "icon": "devicon-javascript-plain colored",
+    "color": "#F7DF1E",
+    "glow": "rgba(247, 223, 30, 0.45)",
+    "badge": "ES6+ & Dynamic",
+    "category": "technical"
+  },
+  {
+    "name": "React",
+    "icon": "devicon-react-original colored",
+    "color": "#61DAFB",
+    "glow": "rgba(97, 218, 251, 0.45)",
+    "badge": "UI Library",
+    "category": "technical"
+  },
+  {
+    "name": "SQL",
+    "icon": "devicon-mysql-plain colored",
+    "color": "#00B4D8",
+    "glow": "rgba(0, 180, 216, 0.45)",
+    "badge": "Database",
+    "category": "technical"
+  },
+  {
+    "name": "HTML5 & CSS3",
+    "icon": "devicon-html5-plain colored",
+    "color": "#E34F26",
+    "glow": "rgba(227, 79, 38, 0.45)",
+    "badge": "Web Structure",
+    "category": "technical"
+  },
+  {
+    "name": "Git",
+    "icon": "devicon-git-plain colored",
+    "color": "#F05032",
+    "glow": "rgba(240, 80, 50, 0.45)",
+    "badge": "Version Control",
+    "category": "tools"
+  },
+  {
+    "name": "Firebase",
+    "icon": "devicon-firebase-plain colored",
+    "color": "#FFCA28",
+    "glow": "rgba(255, 202, 40, 0.45)",
+    "badge": "Cloud & DB",
+    "category": "tools"
+  },
+  {
+    "name": "Troubleshooting HW & SW",
+    "icon": "fas fa-tools",
+    "color": "#10B981",
+    "glow": "rgba(16, 185, 129, 0.45)",
+    "badge": "IT Diagnostics",
+    "category": "tools"
+  },
+  {
+    "name": "Network & Support",
+    "icon": "fas fa-network-wired",
+    "color": "#06B6D4",
+    "glow": "rgba(6, 182, 212, 0.45)",
+    "badge": "Cisco NetAcad",
+    "category": "tools"
+  },
+  {
+    "name": "Programming",
+    "icon": "fas fa-terminal",
+    "color": "#8B5CF6",
+    "glow": "rgba(139, 92, 246, 0.45)",
+    "badge": "Logic & Scripts",
+    "category": "technical"
+  },
+  {
+    "name": "Web Development",
+    "icon": "fas fa-laptop-code",
+    "color": "#6366F1",
+    "glow": "rgba(99, 102, 241, 0.45)",
+    "badge": "Full Stack",
+    "category": "technical"
+  },
+  {
+    "name": "Web Designer",
+    "icon": "fas fa-palette",
+    "color": "#EC4899",
+    "glow": "rgba(236, 72, 153, 0.45)",
+    "badge": "UI & Styling",
+    "category": "creative"
+  },
+  {
+    "name": "Video Editing",
+    "icon": "fas fa-film",
+    "color": "#F43F5E",
+    "glow": "rgba(244, 63, 94, 0.45)",
+    "badge": "Multimedia",
+    "category": "creative"
+  },
+  {
+    "name": "Microsoft Word",
+    "icon": "fas fa-file-word",
+    "color": "#2563EB",
+    "glow": "rgba(37, 99, 235, 0.45)",
+    "badge": "Documentation",
+    "category": "tools"
+  },
+  {
+    "name": "Time Management",
+    "icon": "fas fa-clock",
+    "color": "#F59E0B",
+    "glow": "rgba(245, 158, 11, 0.45)",
+    "badge": "Productivity",
+    "category": "creative"
+  },
+  {
+    "name": "Patience & Empathy",
+    "icon": "fas fa-brain",
+    "color": "#FB7185",
+    "glow": "rgba(251, 113, 133, 0.45)",
+    "badge": "Problem Solving",
+    "category": "creative"
+  }
+]

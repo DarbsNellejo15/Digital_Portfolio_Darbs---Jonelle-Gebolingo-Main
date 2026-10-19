@@ -1,0 +1,35 @@
+[
+  {
+    "name": "DARBS AI",
+    "desc": "Diagnostic Assistant for Repair, Bugs, and Support. AI-powered troubleshooting assistant designed to help users identify and solve common laptop and computer problems such as slow performance, system errors, software issues, and other technical problems.",
+    "image": "/assets/images/projects/darbs_ai.png",
+    "category": "ai",
+    "technologies": ["Python", "Firebase", "AI", "Troubleshooting"],
+    "links": {
+      "view": "#",
+      "code": "https://darbs-ai.vercel.app/"
+    }
+  },
+  {
+    "name": "Portfolio-Sui with DEVCON",
+  "desc": "A personal portfolio created through the DEVCON Sui Move Code Camp, showcasing my IT skills, projects, and experience.",
+  "image": "/assets/images/Sui_Portfolio.png",
+  "category": "Create Portfolio With DEVCON",
+  "technologies": ["Sui", "Move", "Web Development"],
+  "links": {
+    "view": "#",
+    "code": "https://devconsui-move-code-camp2026-level1-blond-two.vercel.app/"
+    }
+  },
+  {
+    "name": "IT Helpdesk & Ticketing",
+    "desc": "Streamlined technical support ticketing application featuring live ticket logging, priority queuing, and solution knowledgebase for IT technicians and users.",
+    "image": "/assets/images/cmsoon.png",
+    "category": "web",
+    "technologies": ["React", "Firebase", "IT Support"],
+    "links": {
+      "view": "#",
+      "code": "https://github.com/your-username/it-helpdesk-system"
+    }
+  }
+]
