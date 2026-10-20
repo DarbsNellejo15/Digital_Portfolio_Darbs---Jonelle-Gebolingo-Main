@@ -2,34 +2,89 @@
   {
     "name": "DARBS AI",
     "desc": "Diagnostic Assistant for Repair, Bugs, and Support. AI-powered troubleshooting assistant designed to help users identify and solve common laptop and computer problems such as slow performance, system errors, software issues, and other technical problems.",
-    "image": "/assets/images/projects/darbs_ai.png",
+    "image": "/assets/images/projects/Darbs_ai.png",
     "category": "ai",
     "technologies": ["Python", "Firebase", "AI", "Troubleshooting"],
     "links": {
-      "view": "#",
+      "view": "https://darbs-ai.vercel.app/",
       "code": "https://darbs-ai.vercel.app/"
     }
   },
   {
-    "name": "Portfolio-Sui with DEVCON",
-  "desc": "A personal portfolio created through the DEVCON Sui Move Code Camp, showcasing my IT skills, projects, and experience.",
-  "image": "/assets/images/Sui_Portfolio.png",
-  "category": "Create Portfolio With DEVCON",
-  "technologies": ["Sui", "Move", "Web Development"],
-  "links": {
-    "view": "#",
-    "code": "https://devconsui-move-code-camp2026-level1-blond-two.vercel.app/"
+    "name": "Student Grading System",
+    "desc": "A college-branded grade-entry window with a list of subjects and course codes, editable grade fields, a GWA control, and creator credit.",
+    "image": "/assets/images/projects/GRADING_SYS.png",
+    "category": "desktop",
+    "technologies": ["Java", "Swing GUI", "Grade Calculation", "Academic System"],
+    "links": {
+      "view": "/assets/images/projects/GRADING_SYS.png",
+      "code": "https://github.com/DarbsNellejo15"
     }
   },
   {
-    "name": "IT Helpdesk & Ticketing",
-    "desc": "Streamlined technical support ticketing application featuring live ticket logging, priority queuing, and solution knowledgebase for IT technicians and users.",
-    "image": "/assets/images/cmsoon.png",
-    "category": "web",
-    "technologies": ["React", "Firebase", "IT Support"],
+    "name": "DARBS Mall Admin Login",
+    "desc": "A centered login screen with the DARBS Mall logo, username and password fields, a “Show Password” checkbox, and Login, Sign Up, and Exit buttons.",
+    "image": "/assets/images/projects/POS_DARBS_MALL.png",
+    "category": "desktop",
+    "technologies": ["Java", "Desktop GUI", "Authentication", "POS System"],
     "links": {
-      "view": "#",
-      "code": "https://github.com/your-username/it-helpdesk-system"
+      "view": "/assets/images/projects/POS_DARBS_MALL.png",
+      "code": "https://github.com/DarbsNellejo15"
+    }
+  },
+  {
+    "name": "Space War Shooter",
+    "desc": "A retro space-themed start screen with a starry background, planet and space imagery, a bold “SPACE WAR SHOOTER” title, and Start Game and Exit buttons.",
+    "image": "/assets/images/projects/Space_War_Shooter.png",
+    "category": "game",
+    "technologies": ["Java", "Game Development", "2D Arcade", "GUI"],
+    "links": {
+      "view": "/assets/images/projects/Space_War_Shooter.png",
+      "code": "https://github.com/DarbsNellejo15"
+    }
+  },
+  {
+    "name": "Student Information Form",
+    "desc": "A student-record window with full-name and ID-number fields, a table or list of subjects and grades, and a Save button. Connect it to a MySQL database for storing student records.",
+    "image": "/assets/images/projects/Student_Information.png",
+    "category": "database",
+    "technologies": ["Java", "MySQL", "Database Management", "CRUD"],
+    "links": {
+      "view": "/assets/images/projects/Student_Information.png",
+      "code": "https://github.com/DarbsNellejo15"
+    }
+  },
+  {
+    "name": "Water Billing System",
+    "desc": "A customer-account interface for managing meter readings, billing periods, water usage, charges, payments, and outstanding balances. Include actions to find a customer, record a reading, generate a bill, and record a payment.",
+    "image": "/assets/images/projects/WBS_SYS.png",
+    "category": "desktop",
+    "technologies": ["Java", "MySQL", "Billing System", "Desktop GUI"],
+    "links": {
+      "view": "/assets/images/projects/WBS_SYS.png",
+      "code": "https://github.com/DarbsNellejo15"
+    }
+  },
+  {
+    "name": "Event Tracker",
+    "desc": "An event-management interface with fields for event name, date and time, venue, organizer, status, and notes. Include a searchable event list and actions to add, edit, and mark events complete.",
+    "image": "/assets/images/projects/TRACKER_EVENT.png",
+    "category": "desktop",
+    "technologies": ["Java", "Desktop GUI", "Event Management", "Database"],
+    "links": {
+      "view": "/assets/images/projects/TRACKER_EVENT.png",
+      "code": "https://github.com/DarbsNellejo15"
+    }
+  },
+  {
+    "name": "Portfolio-Sui with DEVCON",
+    "desc": "A personal portfolio created through the DEVCON Sui Move Code Camp, showcasing my IT skills, projects, and experience.",
+    "image": "/assets/images/projects/Sui_Portfolio.png",
+    "category": "web",
+    "technologies": ["Sui", "Move", "Web Development"],
+    "links": {
+      "view": "https://devconsui-move-code-camp2026-level1-blond-two.vercel.app/",
+      "code": "https://devconsui-move-code-camp2026-level1-blond-two.vercel.app/"
     }
   }
 ]

@@ -28,5 +28,14 @@
     "image": "/assets/images/certificates/Img_DEVCON.png",
     "file": "/assets/certificates/devcon-certificate-jonelle-gebolingo.pdf",
     "description": "Certificate issued to Jonelle Gebolingo by DEVCON Philippines."
+  },
+  {
+    "id": "cert-game",
+    "title": "Game Development Certificate",
+    "issuer": "Game Development Program",
+    "year": "2026",
+    "credentialId": "",
+    "image": "/assets/images/certificates/Img-GAME.JPEG",
+    "description": "Certificate of completion in Game Development."
   }
 ]

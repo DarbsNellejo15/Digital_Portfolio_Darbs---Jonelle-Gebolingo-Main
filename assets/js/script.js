@@ -165,8 +165,12 @@ function showProjects(projects) {
             : `/assets/images/projects/${project.image}.png`;
 
         const techBadges = project.technologies 
-            ? project.technologies.map(t => `<span style="display:inline-block; font-size:1.15rem; background:rgba(0,0,0,0.1); padding:0.2rem 0.6rem; border-radius:0.4rem; margin-right:0.4rem; margin-top:0.4rem; font-weight:600;">${t}</span>`).join('') 
+            ? project.technologies.map(t => `<span class="tech-badge">${t}</span>`).join('') 
             : '';
+
+        const viewUrl = project.links.view && project.links.view !== '#' 
+            ? project.links.view 
+            : project.links.code;
 
         projectHTML += `
         <div class="box tilt">
@@ -174,14 +178,14 @@ function showProjects(projects) {
             <div class="content">
                 <div class="tag">
                     <h3>${project.name}</h3>
-                    <a href="${project.links.view && project.links.view !== '#' ? project.links.view : project.links.code}" class="project-view-link" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View Project</a>
+                    <a href="${viewUrl}" class="project-view-link" target="_blank" rel="noopener noreferrer" title="View ${project.name}"><i class="fas fa-eye"></i> View</a>
                 </div>
                 <div class="desc">
                     <p>${project.desc}</p>
                     ${techBadges ? `<div style="margin-top:0.8rem;">${techBadges}</div>` : ''}
                     <div class="btns">
-                        <a href="${project.links.view && project.links.view !== '#' ? project.links.view : project.links.code}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View Project</a>
-                        <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+                        <a href="${viewUrl}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-eye"></i> View Project</a>
+                        <a href="${project.links.code}" class="btn" target="_blank" rel="noopener noreferrer">Code <i class="fas fa-code"></i></a>
                     </div>
                 </div>
             </div>
