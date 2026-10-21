@@ -65,10 +65,10 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange', function () {
     if (document.visibilityState === "visible") {
         document.title = "DARBS | Jonelle Gebolingo Portfolio";
-        $("#favicon").attr("href", "/assets/images/favicon.png");
+        $("#favicon").attr("href", "./assets/images/favicon.png");
     } else {
         document.title = "Come Back To DARBS Portfolio";
-        $("#favicon").attr("href", "/assets/images/favhand.png");
+        $("#favicon").attr("href", "./assets/images/favhand.png");
     }
 });
 
@@ -96,11 +96,11 @@ let certificatesData = [];
 async function fetchData(type = "skills") {
     let response;
     if (type === "skills") {
-        response = await fetch("/skills.json");
+        response = await fetch("./skills.json");
     } else if (type === "projects") {
-        response = await fetch("/projects/projects.json");
+        response = await fetch("./projects/projects.json");
     } else if (type === "certificates") {
-        response = await fetch("/certificates.json");
+        response = await fetch("./certificates.json");
     }
     const data = await response.json();
     return data;
@@ -160,9 +160,9 @@ function showProjects(projects) {
     if (!projectsContainer) return;
     let projectHTML = "";
     projects.forEach(project => {
-        const imagePath = project.image.startsWith('/') 
+        const imagePath = (project.image.startsWith('/') || project.image.startsWith('./') || project.image.startsWith('http'))
             ? project.image 
-            : `/assets/images/projects/${project.image}.png`;
+            : `./assets/images/projects/${project.image}.png`;
 
         const techBadges = project.technologies 
             ? project.technologies.map(t => `<span class="tech-badge">${t}</span>`).join('') 
