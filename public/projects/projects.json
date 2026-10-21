@@ -6,7 +6,7 @@
     "category": "ai",
     "technologies": ["Python", "Firebase", "AI", "Troubleshooting"],
     "links": {
-      "view": "https://darbs-ai.vercel.app/",
+      "view": "https://darbs-ai.onrender.com",
       "code": "https://darbs-ai.vercel.app/"
     }
   },
